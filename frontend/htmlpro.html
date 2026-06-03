@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projecte flota</title>
+    <link rel="stylesheet" href="csspro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="titulo">
+        <h1 class="az"><i>BattleGrid </i></h1>
+        <h1> BattleGrid</h1>
+    </div>
+
+    <hr>
+    
+ <div class="pagina">
+   
+   <div class="blocazo1">
+      <div class="bloc1">
+            <b><h2>CONFIGURACIÓ DEL JOC</h2></b>
+            <div class="inputos">
+                <label for="amplada">Amplada</label><input type="number" id="amplada">
+                <label for="alçada">Alçada</label><input type="number" id="alçada">
+            </div>
+            
+            <!-- Slider, he necesitado buscar ayuda, y videos pq no sabia como hacerlo, el css no lo he hecho pq no lo entendia-->
+            <div class="slider">
+                <label for="potencia">Num vaixells:</label>
+                <input type="range" id="potencia" min="0" max="100" value="50">
+            </div>
+
+
+            <!-- Para que en los botones de dificultades solo se marque uno, hay q poner el mismo type, y label para clicar en el texto  -->
+            <div class="dificultad">
+                <p>Difficulty:</p>
+                <label for="ez">Easy</label><input type="radio" name="dificultad" id="ez">
+                <label for="md">Medium</label><input type="radio" name="dificultad" id="md">
+                <label for="hrd">Hard</label><input type="radio" name="dificultad" id="hrd">
+            </div>
+            
+            <div class="botones">
+                <button class="botonS">Start game</button> 
+                <button class="botonR">Restart game</button>
+                <button class="botonA">Leave game</button>
+            </div>
+            
+      </div> <!-- cerramos bloc1-->
+      <div class="foto1">
+         <img src="gameon.png" alt="Imagen del jugador 1">
+      </div>
+   </div>
+    
+    
+    <div class="bloc2">
+      <div class="taulell">
+        <H1>El meu taulell</H1>
+
+        <div class="fila">
+            <div class="numero"></div>
+            <div class="numero">1</div>
+            <div class="numero">2</div>
+            <div class="numero">3</div>   
+            <div class="numero">4</div>
+            <div class="numero">5</div>
+            <div class="numero">6</div>
+            <div class="numero">7</div>
+            <div class="numero">8</div>
+            <div class="numero">9</div>
+            <div class="numero">10</div>
+        </div>
+            
+         <div class="fila">
+            <div class="letra">A</div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>   
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+         </div>
+         
+         <div class="fila">
+            <div class="letra">B</div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>   
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+         </div>
+
+         <div class="fila">
+            <div class="letra">C</div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>   
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+         </div>
+
+         <div class="fila">
+            <div class="letra">D</div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>   
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+         </div>
+
+         <div class="fila">
+            <div class="letra">E</div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>   
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+         </div>
+
+        <div class="fila">
+            <div class="letra">F</div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>   
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+         </div>
+
+         <div class="fila">
+            <div class="letra">G</div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>   
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+         </div>
+
+         <div class="fila">
+            <div class="letra">H</div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div> 
+            <div class="celda"></div>  
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+         </div>
+
+         <div class="fila">
+            <div class="letra">I</div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>   
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+         </div>
+
+         <div class="fila">
+            <div class="letra">J</div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>   
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+            <div class="celda"></div>
+         </div>
+
+      </div> <!-- cerramos taulell-->
+
+      <div class="fire">
+        <button class="botonF">Fire!</button> 
+      </div>
+    </div> <!-- cerramos bloc2-->
+
+    
+    <div class="blocazo3">
+      <div class="bloc3">
+            <div class="marcador">
+               <h3><b>Marcador</b></h3>
+               <h1 class="puntos">55 punts</h1>
+            </div>
+
+            <div class="estadisticas">
+               <div class="jugador">
+                  <h3>Jugador: ANGELITO</h3>
+               </div>
+            </div>
+
+            <div class="estats">
+               <h3>Estadisticas del jugador:</h3>
+               <div class="tiros">
+                  <div class="hits">Hits: 5</div>
+                  <div class="miss">Misses: 5</div>
+               </div>
+               <div class="shunk">
+                  <div class="ships">Ships sunk: 1</div>
+               </div>
+            </div>
+
+            <div class="numj">
+               <h3>Numero de jugades:</h3>
+               <h3>6</h3>
+            </div>
+
+            <div class="ultim">
+               <hr>
+               <div class="missatge">
+                  Ultim missatge: Angelito <br>
+                  ha encertat un vaixell a A3
+               </div>
+            </div>
+
+
+            
+      </div> <!-- cerramos bloc3-->
+      <div class="foto2">
+         <img src="luigi.png" alt="Imagen del jugador 2">
+      </div>
+    </div>
+      
+    
+ </div>
+
+
+</body>
+
+</html>
